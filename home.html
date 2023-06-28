@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- <link rel="stylesheet" href="./CSS/home.css" /> -->
+    <!-- Add your CSS file here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-ba">
+        <ul>
+          <li id="name">Niyam Rai</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <section id="about">
+        <h2>
+          Hello! I am a Python Developer who enjoys delivering experiences that
+          empower users. I am now working on my Data Science Skills
+        </h2>
+        <p>
+          Bachlor's degree in Information Science and Engineering at a VTU
+          affiliated college
+        </p>
+        <p>Curently I'm a Student</p>
+        <p>
+          <a href="ayushniyam@gmail.com" id="mail"
+            ><img src="./Img/mail.png" alt="" class="social"
+          /></a>
+          <a href="https://www.linkedin.com/in/niyamrai/" id="linkedin"
+            ><img src="./Img/linkedin.png" alt="" class="social"
+          /></a>
+          <a href="https://github.com/NiyamRai" id="git"
+            ><img src="./Img/git.png" alt="" class="social"
+          /></a>
+          <a href="https://leetcode.com/NiyamRai/" id="leet"
+            ><img src="./Img/leet.png" alt="" class="social"
+          /></a>
+        </p>
+      </section>
+
+      <section id="work">
+        <!-- <h2>Work</h2> -->
+        <div class="work-item">
+          <img src="./Img/Project1.jpg" alt="Project 1" />
+          <h3>Presentation Control With Hand Gesture</h3>
+          <p>A brief description of the project.</p>
+        </div>
+        <div class="work-item">
+          <img src="./Img/project2.jpg" alt="Project 2" />
+          <h3>Your Virtual Assistant</h3>
+          <p>A brief description of the project.</p>
+        </div>
+        <div class="work-item">
+          <img src="./Img/project3.jpg" alt="Project 2" />
+          <h3>Typing Speed Calculator</h3>
+          <p>A brief description of the project.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2023 Niyam Rai. All rights reserved.</p>
+    </footer>
+    <script src="./JS/home.js"></script>
+  </body>
+</html>
