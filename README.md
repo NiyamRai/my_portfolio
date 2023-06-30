@@ -94,7 +94,7 @@ git push -u origin dev1
 git push origin dev1(Recomended)
 ```
 
-## CLONE:
+## CLONE
 
 ```sh
 git clone <"url of git repo">
@@ -105,3 +105,61 @@ git clone <"url of git repo">
 ```sh
 rmdir -Force -Recurse .git
 ```
+
+## STASH
+
+#### Adding stash
+
+```sh
+git stash
+```
+
+#### Getting previous stashed state
+
+```sh
+git stash apply
+```
+
+#### Listing All the Stash
+
+```sh
+git stash list
+```
+
+#### Getting stashed state from stash index
+
+```sh
+git stash apply 1
+```
+
+```sh
+git stash apply <"stash index">
+```
+
+#### Adding stash
+
+```sh
+git stash push -m "initial stash"
+```
+
+#### To remove a stash
+
+```sh
+git stash drop 1
+```
+
+```sh
+git stash drop <"stash index">
+```
+
+#### To bring back stash to normal flow
+
+```sh
+git stash pop 1
+```
+
+```sh
+git stash pop <"stash index">
+```
+
+###### then we can use normal staging and commit
