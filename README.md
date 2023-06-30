@@ -51,7 +51,7 @@ git status
 #### To Remove A file from staging area (if added by mistake):
 
 ```sh
-git rm --cached <filr name>
+git rm --cached <"file name">
 ```
 
 # Branching
@@ -65,7 +65,7 @@ git branch dev1
 - #### Moving to other branch:
 
 ```sh
-git branch dev1
+git checkout dev1
 ```
 
 - #### alternate way:
@@ -83,7 +83,7 @@ git merge dev1
 - #### To delete the Branch:
 
 ```sh
-git branch -d make_function
+git branch -d dev1
 ```
 
 - #### To push into the new branch:
@@ -91,13 +91,13 @@ git branch -d make_function
 ```sh
 git push -u origin dev1
 
-git push -u origin dev1(Recomended)
+git push origin dev1(Recomended)
 ```
 
 ## CLONE:
 
 ```sh
-git clone <url of git repo>
+git clone <"url of git repo">
 ```
 
 #### To remove existing git data
