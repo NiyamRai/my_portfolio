@@ -25,6 +25,32 @@ git push origin main(recomended)
 (-u to make it default)
 ```
 
+#### Initialising a git
+
+```sh
+git init
+```
+
+#### Staging the files
+
+- to add all the files
+
+```sh
+git add .
+```
+
+- to add only selected file
+
+```sh
+git add <"file name">
+```
+
+- Alternate: to add all the files
+
+```sh
+git add --all
+```
+
 #### To bring back the data same to the last commit :
 
 ```sh
