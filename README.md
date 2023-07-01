@@ -132,6 +132,12 @@ git clone <"url of git repo">
 rmdir -Force -Recurse .git
 ```
 
+#### To chnage the origin (url) of the repo
+
+```sh
+git remote set-url origin <https-url>
+```
+
 ## STASH
 
 #### Adding stash
